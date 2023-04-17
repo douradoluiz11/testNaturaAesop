@@ -14,6 +14,6 @@ export const ELEMENTS = {
     receiveNews: "//input[@name='receiveNewsLetter']",
     optIn: "//input[@name='infContOptIn']",
     terms: "//input[@name='acceptedterms']",
-    btnCriarConta: "//button[@class='MuiButtonBase-root MuiButton-root natds146 MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-fullWidth']",
+    btnCriarConta: "//span[contains(text(),'Criar Conta')]/..",
     clienteLogado: "//span[@class='MuiTypography-root jss1 MuiTypography-caption MuiTypography-colorInherit']"
 }

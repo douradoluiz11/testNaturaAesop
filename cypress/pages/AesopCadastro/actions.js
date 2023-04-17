@@ -124,6 +124,8 @@ class AesopCadastro {
 
    validaClientelogado (){
 
+    cy.wait(2000);
+
     cy.xpath(el.clienteLogado).should('have.text',name);
 
    }
